@@ -1,1 +1,5 @@
-console.log('this is template');
+import express from 'express';
+
+const app = express();
+
+export { app };
