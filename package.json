@@ -7,7 +7,7 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --runInBand",
     "dev": "tsx watch src/server.ts",
     "build": "tsc && tsc-alias",
-    "start": "node dist/app.js",
+    "start": "node dist/server.js",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "typecheck": "tsc --noEmit",

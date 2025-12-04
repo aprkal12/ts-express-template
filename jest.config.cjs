@@ -1,5 +1,5 @@
 module.exports = {
-  setupFilesAfterEnv: ['./src/tests/setup.ts'],
+  setupFilesAfterEnv: ['./tests/setup.ts'],
 
   preset: 'ts-jest/presets/default-esm',
   extensionsToTreatAsEsm: ['.ts'],
